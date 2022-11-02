@@ -1,0 +1,56 @@
+﻿{
+  "changelog": [
+    {
+      "ChangeList": [
+        {
+          "Id": "6cb9baf7-4b2d-4640-bc60-3f8356c043f3",
+          "ApiChange": "Enumeration",
+          "ChangedApiName": "rolePrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the **rolePrincipalTypes** enumeration type.",
+          "Target": "rolePrincipalTypes"
+        },
+        {
+          "Id": "6cb9baf7-4b2d-4640-bc60-3f8356c043f3",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowedPrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the `allowedPrincipalTypes` property to the [unifiedRoleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/unifiedRoleDefinition?view=graph-rest-beta) resource.",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "6cb9baf7-4b2d-4640-bc60-3f8356c043f3",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2022-11-01T07:34:46.8451972Z",
+      "WorkloadArea": "Role management",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "e32c3f85-25d2-4b20-bf95-25049780a5ef",
+          "ApiChange": "Enumeration",
+          "ChangedApiName": "rolePrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the **rolePrincipalTypes** enumeration type.",
+          "Target": "rolePrincipalTypes"
+        },
+        {
+          "Id": "e32c3f85-25d2-4b20-bf95-25049780a5ef",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowedPrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the `allowedPrincipalTypes` property to the [unifiedRoleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/unifiedRoleDefinition?view=graph-rest-1.0) resource.",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "e32c3f85-25d2-4b20-bf95-25049780a5ef",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2022-11-01T07:34:46.8452004Z",
+      "WorkloadArea": "Role management",
+      "SubArea": ""
+    }
+  ]
+}

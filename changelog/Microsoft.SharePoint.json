@@ -3,6 +3,58 @@
     {
       "ChangeList": [
         {
+          "Id": "a0481386-dec6-4d25-8890-0cd702b71c39",
+          "ApiChange": "Enumeration",
+          "ChangedApiName": "rolePrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the **rolePrincipalTypes** enumeration type.",
+          "Target": "rolePrincipalTypes"
+        },
+        {
+          "Id": "a0481386-dec6-4d25-8890-0cd702b71c39",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowedPrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the `allowedPrincipalTypes` property to the [unifiedRoleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/unifiedRoleDefinition?view=graph-rest-beta) resource.",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "a0481386-dec6-4d25-8890-0cd702b71c39",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2022-11-01T07:34:46.8452055Z",
+      "WorkloadArea": "Sites and lists",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
+          "Id": "0cbb200b-e20d-4e96-972d-995a1cf227c3",
+          "ApiChange": "Enumeration",
+          "ChangedApiName": "rolePrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the **rolePrincipalTypes** enumeration type.",
+          "Target": "rolePrincipalTypes"
+        },
+        {
+          "Id": "0cbb200b-e20d-4e96-972d-995a1cf227c3",
+          "ApiChange": "Property",
+          "ChangedApiName": "allowedPrincipalTypes",
+          "ChangeType": "Addition",
+          "Description": "Added the `allowedPrincipalTypes` property to the [unifiedRoleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/unifiedRoleDefinition?view=graph-rest-1.0) resource.",
+          "Target": "unifiedRoleDefinition"
+        }
+      ],
+      "Id": "0cbb200b-e20d-4e96-972d-995a1cf227c3",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2022-11-01T07:34:46.8452066Z",
+      "WorkloadArea": "Sites and lists",
+      "SubArea": ""
+    },
+    {
+      "ChangeList": [
+        {
           "Id": "97b40989-8561-4ba0-a28c-24afb01fbeff",
           "ApiChange": "Relationship",
           "ChangedApiName": "operations",

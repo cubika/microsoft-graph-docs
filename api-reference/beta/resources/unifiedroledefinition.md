@@ -36,6 +36,7 @@ The following RBAC providers are currently supported:
 
 | Property     | Type        | Description |
 |:-------------|:------------|:------------|
+|allowedPrincipalTypes|rolePrincipalTypes|Principal types for role assignees, read-only. The possible values are: `user`, `servicePrincipal`, `group`, `unknownFutureValue`. Optional.|
 |description|String| The description for the unifiedRoleDefinition. Read-only when **isBuiltIn** is true. |
 |displayName|String| The display name for the unifiedRoleDefinition. Read-only when **isBuiltIn** is true. Required.  Supports `$filter` (`eq` and `startsWith` operators only).|
 |id|String| The unique identifier for the unifiedRoleDefinition. Key, not nullable, Read-only.  Supports `$filter` (`eq` operator only). |

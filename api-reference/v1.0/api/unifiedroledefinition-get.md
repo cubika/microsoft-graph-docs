@@ -142,6 +142,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#roleManagement/directory/roleDefinitions/$entity",
     "id": "f189965f-f560-4c59-9101-933d4c87a91a",
+    "allowedPrincipalTypes": "User",
     "description": "Allows reading Application Registrations",
     "displayName": "Application Registration Reader",
     "isBuiltIn": false,
@@ -225,6 +226,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#roleManagement/directory/roleDefinitions/$entity",
     "id": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
+    "allowedPrincipalTypes": "User, Group",
     "description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
     "displayName": "Groups Administrator",
     "isBuiltIn": true,
@@ -333,6 +335,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#roleManagement/directory/roleDefinitions(inheritsPermissionsFrom())/$entity",
     "id": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
+    "allowedPrincipalTypes": "User, Group",
     "description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
     "displayName": "Groups Administrator",
     "isBuiltIn": true,

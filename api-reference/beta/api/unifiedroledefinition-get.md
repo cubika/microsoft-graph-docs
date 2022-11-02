@@ -170,6 +170,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions/$entity",
     "id": "f189965f-f560-4c59-9101-933d4c87a91a",
+    "allowedPrincipalTypes": "User",
     "description": "Allows reading Application Registrations",
     "displayName": "Application Registration Reader",
     "isBuiltIn": false,
@@ -255,6 +256,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions/$entity",
     "id": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
+    "allowedPrincipalTypes": "User, Group",
     "description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
     "displayName": "Groups Administrator",
     "isBuiltIn": true,
@@ -365,6 +367,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions(inheritsPermissionsFrom())/$entity",
     "id": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
+    "allowedPrincipalTypes": "User, Group",
     "description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
     "displayName": "Groups Administrator",
     "isBuiltIn": true,
@@ -532,6 +535,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/cloudPC/roleDefinitions/$entity",
     "id": "d40368cb-fbf4-4965-bbc1-f17b3a78e510",
+    "allowedPrincipalTypes": "User",
     "description": "Have read-only access all Cloud PC features.",
     "displayName": "Cloud PC Reader",
     "isBuiltIn": true,
@@ -617,6 +621,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/entitlementManagement/roleDefinitions/$entity",
     "id": "ba92d953-d8e0-4e39-a797-0cbedb0a89e8",
+    "allowedPrincipalTypes": "User",
     "displayName": "Catalog creator",
     "description": "Catalog creator",
     "isBuiltIn": true,

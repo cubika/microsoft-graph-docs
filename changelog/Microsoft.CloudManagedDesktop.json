@@ -3,6 +3,32 @@
         {
             "ChangeList": [
                 {
+                "Id": "aaead1d4-adcc-452b-9ac5-cd57ad7bb166",
+                "ApiChange": "Enumeration",
+                "ChangedApiName": "rolePrincipalTypes",
+                "ChangeType": "Addition",
+                "Description": "Added the **rolePrincipalTypes** enumeration type.",
+                "Target": "rolePrincipalTypes"
+                },
+                {
+                "Id": "aaead1d4-adcc-452b-9ac5-cd57ad7bb166",
+                "ApiChange": "Property",
+                "ChangedApiName": "allowedPrincipalTypes",
+                "ChangeType": "Addition",
+                "Description": "Added the `allowedPrincipalTypes` property to the [unifiedRoleDefinition](https://docs.microsoft.com/en-us/graph/api/resources/intune-unifiedRoleDefinition?view=graph-rest-beta) resource.",
+                "Target": "unifiedRoleDefinition"
+                }
+            ],
+            "Id": "aaead1d4-adcc-452b-9ac5-cd57ad7bb166",
+            "Cloud": "Prod",
+            "Version": "beta",
+            "CreatedDateTime": "2022-11-01T07:34:46.8445902Z",
+            "WorkloadArea": "Devices and apps",
+            "SubArea": "Cloud PC"
+        },
+        {
+            "ChangeList": [
+                {
                     "Id": "a74bf4db-93a3-4a4c-98b0-400bac1e2131",
                     "ApiChange": "Enumeration",
                     "ChangedApiName": "cloudPcExportJobStatus",

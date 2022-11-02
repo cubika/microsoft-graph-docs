@@ -165,6 +165,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/directory/roleDefinitions/$entity",
     "id": "d5eec5e0-6992-4c6b-b430-0f833f1a815a",
+    "allowedPrincipalTypes": "User",
     "description": "Update basic properties of application registrations",
     "displayName": "Application Registration Support Administrator",
     "isBuiltIn": false,
@@ -270,6 +271,7 @@ Content-type: application/json
 {
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#roleManagement/cloudPc/roleDefinitions/$entity",
     "id": "b7f5ddc1-b7dc-4d37-abce-b9d6fc15ffff",
+    "allowedPrincipalTypes": "User",
     "description": "An example custom role",
     "displayName": "ExampleCustomRole",
     "isBuiltIn": false,
