@@ -3317,3 +3317,11 @@ Possible values for user account types (group membership), per Windows definitio
 |sharedContent|
 |unknownFutureValue|
 
+### rolePrincipalTypes values
+
+|Member|
+|:---|
+|user|
+|serviceprincipal|
+|group|
+|unknownFutureValue|
