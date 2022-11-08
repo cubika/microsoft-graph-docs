@@ -84,7 +84,7 @@ GET /roleManagement/entitlementManagement/roleDefinitions
 ```
 
 ## Optional query parameters
-This method supports `$filter` query parameter on `id`, `displayName`, and `isBuiltIn` properties. For general information, see [OData query parameters](/graph/query-parameters).
+This method supports `$filter` query parameter on `id`, `displayName`, `allowedPrincipalTypes`, and `isBuiltIn` properties. For general information, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
 
@@ -169,7 +169,7 @@ Content-type: application/json
     "value": [
         {
             "id": "729827e3-9c14-49f7-bb1b-9608f156bbb8",
-            "allowedPrincipalTypes": "User, Group",
+            "allowedPrincipalTypes": "user, group",
             "description": "Can reset passwords for non-administrators and Helpdesk Administrators.",
             "displayName": "Helpdesk Administrator",
             "isBuiltIn": true,
@@ -199,7 +199,7 @@ Content-type: application/json
         },
         {
             "id": "f023fd81-a637-4b56-95fd-791ac0226033",
-            "allowedPrincipalTypes": "User, Group",
+            "allowedPrincipalTypes": "user, group",
             "description": "Can read service health information and manage support tickets.",
             "displayName": "Service Support Administrator",
             "isBuiltIn": true,
@@ -226,7 +226,7 @@ Content-type: application/json
         },
         {
             "id": "b0f54661-2d74-4c50-afa3-1ec803f12efe",
-            "allowedPrincipalTypes": "User, Group",
+            "allowedPrincipalTypes": "user, group",
             "description": "Can perform common billing related tasks like updating payment information.",
             "displayName": "Billing Administrator",
             "isBuiltIn": true,
@@ -324,7 +324,7 @@ Content-type: application/json
     "value": [
         {
             "id": "b5c08161-a7af-481c-ace2-a20a69a48fb1",
-            "allowedPrincipalTypes": "User, Group",
+            "allowedPrincipalTypes": "user, group",
             "description": "Cloud PC Administrator has read and write access to all Cloud PC features located within the Cloud PC blade.",
             "displayName": "Cloud PC Administrator",
             "isBuiltIn": true,
@@ -364,7 +364,7 @@ Content-type: application/json
         },
         {
             "id": "d40368cb-fbf4-4965-bbc1-f17b3a78e510",
-            "allowedPrincipalTypes": "User, Group",
+            "allowedPrincipalTypes": "user, group",
             "description": "Cloud PC Reader has read access to all Cloud PC features located within the Cloud PC blade.",
             "displayName": "Cloud PC Reader",
             "isBuiltIn": true,
@@ -458,7 +458,7 @@ Content-type: application/json
     "value": [
         {
             "id": "ae79f266-94d4-4dab-b730-feca7e132178",
-            "allowedPrincipalTypes": "User",
+            "allowedPrincipalTypes": "user",
             "displayName": "Catalog owner",
             "description": "Catalog owner",
             "isBuiltIn": true,
@@ -475,7 +475,7 @@ Content-type: application/json
         },
         {
             "id": "44272f93-9762-48e8-af59-1b5351b1d6b3",
-            "allowedPrincipalTypes": "User",
+            "allowedPrincipalTypes": "user",
             "displayName": "Catalog reader",
             "description": "Catalog reader",
             "isBuiltIn": true,

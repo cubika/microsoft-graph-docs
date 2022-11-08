@@ -23,8 +23,8 @@
       "Cloud": "Prod",
       "Version": "beta",
       "CreatedDateTime": "2022-11-01T07:34:46.8451972Z",
-      "WorkloadArea": "Role management",
-      "SubArea": ""
+      "WorkloadArea": "Identity and access",
+      "SubArea": "Directory management"
     },
     {
       "ChangeList": [
@@ -49,8 +49,8 @@
       "Cloud": "Prod",
       "Version": "v1.0",
       "CreatedDateTime": "2022-11-01T07:34:46.8452004Z",
-      "WorkloadArea": "Role management",
-      "SubArea": ""
+      "WorkloadArea": "Identity and access",
+      "SubArea": "Directory management"
     }
   ]
 }

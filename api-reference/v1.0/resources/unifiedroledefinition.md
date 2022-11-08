@@ -27,7 +27,7 @@ A role definition is a collection of permissions in Azure Active Directory (Azur
 
 | Property     | Type        | Description |
 |:-------------|:------------|:------------|
-|allowedPrincipalTypes|rolePrincipalTypes|Principal types for role assignees, read-only. The possible values are: `user`, `servicePrincipal`, `group`, `unknownFutureValue`. Optional.|
+|allowedPrincipalTypes|rolePrincipalTypes|Types of principals that can be assigned the role. Read-only. The possible values are: `user`, `servicePrincipal`, `group`, `unknownFutureValue`. This is a multi-valued enumeration that can contain up to three values as a comma-separated string. For example, `user, group`. Optional.|
 |description|String| The description for the unifiedRoleDefinition. Read-only when **isBuiltIn** is `true`. |
 |displayName|String| The display name for the unifiedRoleDefinition. Read-only when **isBuiltIn** is `true`. Required.  Supports $filter (`eq`, `in`).|
 |id|String| The unique identifier for the role definition. Key, not nullable, Read-only. Inherited from [entity](../resources/entity.md). Supports $filter (`eq`, `in`). |
@@ -59,6 +59,7 @@ The following is a JSON representation of the resource.
 ```json
 {
   "@odata.type": "#microsoft.graph.unifiedRoleDefinition",
+  "allowedPrincipalTypes": "String",
   "description": "String",
   "displayName": "String",
   "id": "String (identifier)",

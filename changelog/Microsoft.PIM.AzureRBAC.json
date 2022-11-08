@@ -24,7 +24,7 @@
       "Version": "beta",
       "CreatedDateTime": "2022-11-01T07:34:46.8452019Z",
       "WorkloadArea": "Identity and access",
-      "SubArea": "Identity governance"
+      "SubArea": "Governance"
     },
     {
       "ChangeList": [
@@ -50,7 +50,7 @@
       "Version": "v1.0",
       "CreatedDateTime": "2022-11-01T07:34:46.8452039Z",
       "WorkloadArea": "Identity and access",
-      "SubArea": "Identity governance"
+      "SubArea": "Governance"
     },
     {
       "ChangeList": [
